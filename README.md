@@ -3,7 +3,7 @@ PyTorch implementation of the LFADS architecture.
 
 The [Latent Factor Analysis via Dynamical Systems (LFADS)](https://arxiv.org/abs/1608.06315) is a sequential autoencoder-based method designed with the purpose of [inferring single-trial dynamics of neural activity](https://rdcu.be/6Wji). The major part of the model operates on neural firing rates, not spikes and can be applied to various data modalities.  
 
-For a basic application take a look at the toy example notebook.  
+For a basic application take a look at the [toy example notebook](https://github.com/alive-and-hungry/lfads-pytorch/blob/master/lfads-toy-example.ipynb).  
 
 The code in this repository is inspired by [LFADS JAX implementation](https://github.com/google-research/computation-thru-dynamics). Only the basic architecture is implemented. The controller is not yet a part of the repository.  
 
